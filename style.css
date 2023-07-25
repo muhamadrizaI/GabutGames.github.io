@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 body {
   height: 100vh;
   display: flex;
@@ -13,9 +13,9 @@ body {
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
-  min-width: 800px;
+  //min-width: 800px;
   transform: rotateZ(-5deg);
-  box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
   position: absolute;
 }
 .paper.heart {
@@ -38,7 +38,7 @@ img {
 }
 .paper.heart::after {
   content: "";
-  background-image: url("https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png");
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png');
   width: 100%;
   height: 100%;
   position: absolute;
@@ -50,19 +50,19 @@ img {
   opacity: 0.6;
 }
 .paper.red {
-  filter: hue-rotate(90deg);
+/*   filter: hue-rotate(90deg); */
 }
 .paper:nth-of-type(3n) {
   background-position: left top;
 }
 .paper:nth-of-type(3n) {
-  filter: hue-rotate(200deg);
+/*   filter: hue-rotate(200deg); */
 }
 p {
-  font-family: "Zeyada";
+  font-family: 'Zeyada';
   font-size: 50px;
-  color: rgb(0, 0, 100);
+  color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
-  filter: drop-shadow(2px 1.5px 1px rgba(0, 0, 105, 0.9));
+  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
